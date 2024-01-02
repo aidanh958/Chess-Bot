@@ -62,6 +62,8 @@ the functions return format:
 the helper.getColoredPieces function will return all the indexes of the pieces with the specified color.
 ### helper.isInCheck(board, color)
 the helper.isInCheck function will return true if the supplied boards king is in check
+### helper.makeMove(board, move)
+the helper.makeMove function takes in the current board and a move then will output a new board as if the move was made
 ## rules
  - you cannot use external sources or files (that means everything is in the bots file and not using fetch or XMLHttpRequest to get external data)
  - no multithreading
