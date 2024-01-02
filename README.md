@@ -38,7 +38,7 @@ the colors are defined as:
 white: 1,
 black: 0
 ```
-
+you can access your bots color at anytime by using the `color` variable
 ## API
 ### helper.getPiece(board, x, y)
 the helper.getPiece function takes in a board, x, and y position and will return the piece.
