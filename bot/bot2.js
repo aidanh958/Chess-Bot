@@ -3,11 +3,11 @@ function prep() {
 
 }
 
-function think(board, remainingTime) {
+function think(currentBoard, remainingTime) {
     // required func
     
     // basic example: get random legal move
-    let legalMoves = helper.getAllLegalMoves(board, color);
+    let legalMoves = helper.getAllLegalMoves(currentBoard, color);
     let t = Math.floor(Math.random()*legalMoves.length);
     return legalMoves[t][1];
 }
