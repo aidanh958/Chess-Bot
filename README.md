@@ -38,7 +38,7 @@ the colors are defined as:
 white: 1,
 black: 0
 ```
-you can access your bots color at anytime by using the `color` variable
+you can access your bots color at anytime by using the `color` variable.
 ## API
 ### helper.getPiece(board, x, y)
 the helper.getPiece function takes in a board, x, and y position and will return the piece.
@@ -62,6 +62,22 @@ the functions return format:
 the helper.getColoredPieces function will return all the indexes of the pieces with the specified color.
 ### helper.isInCheck(board, color)
 the helper.isInCheck function will return true if the supplied boards king is in check
+## rules
+ - you cannot use external sources or files (that means everything is in the bots file and not using fetch or XMLHttpRequest to get external data)
+ - no multithreading
+ - your bot will instantly lose if it tries to make an illegal move
+ - your bot's file size must be less than 1GB
+## competition details
+ - each bot will only have 5 seconds in total. If your bot runs out of time you lose.
+ - the bots will play 100 games alternating between black and white
+
+
+
+
+
+
+
+
 
 
 
