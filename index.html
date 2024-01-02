@@ -1,0 +1,65 @@
+<html>
+    <style>
+        img {
+            display: none;
+        }
+        canvas {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translateY(-50%)
+        }
+        #outputText {
+            text-align: center;
+            font-size: 40px;
+        }
+        #sideView {
+            width: 500px;
+            height: 500px;
+            background-color: darkgrey;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-100%) translateY(-50%)
+        }
+        #topPlayer {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 500px;
+            height: 250px;
+            transform: translateX(-50%) translateY(-100%);
+            background-color: darkslategrey;
+            border: 1px solid lightblue;
+        }
+        #bottomPlayer {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            width: 500px;
+            height: 250px;
+            transform: translateX(-50%) translateY(0%);
+            background-color: darkslategrey;
+            border: 1px solid lightblue;
+        }
+        h1 {
+            font-size: 50px;
+        }
+    </style>
+
+    <div id="sideView">
+        <div id="topPlayer">
+            <h1 id="tName">bot name</h1>
+            time: <span id="tTime"></span> <br/>
+        </div>
+        <div id="bottomPlayer">
+            <h1 id="bName">bot name</h1>
+            time: <span id="bTime"></span> <br/>
+        </div>
+    </div>
+    <canvas id="c"></canvas>
+    <div id="outputText"></div>
+    <script src="./botHelper.js"></script>
+    <script src="./legalMoveGenerator.js"></script>
+    <script src="./script.js"></script>
+</html>

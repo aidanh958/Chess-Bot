@@ -1,0 +1,16 @@
+{
+    "mode": 1,
+    "times": 5000,
+    "botA": {
+        "name": "bot 1",
+        "file": "./bot/bot.js"
+    },
+    "botB": {
+        "name": "bot 2",
+        "file": "./bot/bot2.js"
+    }
+}
+
+
+
+
