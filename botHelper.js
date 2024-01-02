@@ -1,4 +1,10 @@
 let helper = {
+    convertIndexToPos: function(ind) {
+        return [ ind%8, Math.floor(ind/8) ];
+    },
+    convertPosToIndex: function(x, y) {
+        return (y*8)+x;
+    },
     getPiece: function(board, x, y) {
         return board[(y*8)+x];
     },
