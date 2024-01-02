@@ -70,6 +70,7 @@ the helper.isInCheck function will return true if the supplied boards king is in
 ## competition details
  - each bot will only have 5 seconds in total. If your bot runs out of time you lose.
  - the bots will play 100 games alternating between black and white
+ - the bot with the most wins will be the winner
 
 
 
